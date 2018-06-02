@@ -6,8 +6,8 @@
         .done(function(data) {
             QUESTION_DATA = data.d;
 
-            //shuffle(QUESTION_DATA);
-
+            shuffle(QUESTION_DATA);
+            //test
             parseQs();
             addListeners();
         })
@@ -22,7 +22,7 @@
         var container = document.getElementById("exam-container");
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
-            //shuffle(QUESTION_DATA[i].choices);
+            shuffle(QUESTION_DATA[i].choices);
 
             var element = document.createElement("div");
 

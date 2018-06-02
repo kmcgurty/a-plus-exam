@@ -8,9 +8,9 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-dest": "^0.2.0",
-    "gulp-htmlclean": "^2.7.16",
+    "gulp-htmlclean": "^2.7.22",
     "gulp-livereload": "^3.8.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "gulp-server-livereload": "^1.9.2"
   },
   "scripts": {

@@ -1,0 +1,19 @@
+{
+  "name": "Kmcgurty_Website",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "gulp-dest-clean": "^0.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-dest": "^0.2.0",
+    "gulp-htmlclean": "^2.7.16",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "scripts": {
+    "deploy": "git subtree push --prefix build origin gh-pages"
+  }
+}

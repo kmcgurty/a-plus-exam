@@ -2,7 +2,7 @@
     var QUESTION_DATA;
     var MAX_QUESTIONS = 25;
 
-    $.getJSON("/javascript/901questions.json")
+    $.getJSON("./javascript/901questions.json")
         .done(function(data) {
             QUESTION_DATA = data.d;
 

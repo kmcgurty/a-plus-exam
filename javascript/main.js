@@ -2,11 +2,17 @@
     var QUESTION_DATA;
     var MAX_QUESTIONS = 25;
 
+    var toShuffle = false;
+
     $.getJSON("./javascript/901questions.json")
         .done(function(data) {
             QUESTION_DATA = data.d;
 
-            shuffle(QUESTION_DATA);
+           
+            if (toShuffle) {
+                shuffle(QUESTION_DATA);
+            }
+            
             //test
             parseQs();
             addListeners();
@@ -22,7 +28,9 @@
         var container = document.getElementById("exam-container");
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
-            shuffle(QUESTION_DATA[i].choices);
+            if (toShuffle) {
+                shuffle(QUESTION_DATA[i].choices);
+            };
 
             var element = document.createElement("div");
 
@@ -103,8 +111,13 @@
         for (var i = 0; i < MAX_QUESTIONS; i++) {
             var answers = getAFromQ(i);
 
+            console.log(answers)
+
             for (var j = 0; j < answers.length; j++) {
                 var radio = document.querySelector("#q" + i + "a" + answers[j]);
+
+            console.log("gssday")
+                console.log("#q" + i + "a" + answers[j]);
 
                 if (radio.checked) {
                     radio.parentElement.className = "a correct";
@@ -126,11 +139,15 @@
             var currRadio = document.querySelector("#q" + questionNum + "a" + i);
             var currAns = currRadio.parentElement;
 
+            console.log(currRadio, currAns)
+
             var currQ = parseInt(currAns.parentElement.parentElement.querySelector(".q").getAttribute("data-qnum"));
             var currA = parseInt(currAns.getAttribute("data-cnum"));
 
-            var points = parseInt(QUESTION_DATA[currQ].choices[currA].pnts);
+            console.log(QUESTION_DATA[currQ].choices[currA]);
 
+            var points = Number(QUESTION_DATA[currQ].choices[currA].pnts);
+            console.log(points);
             if (points > 0) { //correct answer
                 answers.push(currA);
             }

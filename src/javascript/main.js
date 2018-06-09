@@ -7,13 +7,11 @@
     $.getJSON("./javascript/901questions.json")
         .done(function(data) {
             QUESTION_DATA = data.d;
-
            
             if (toShuffle) {
                 shuffle(QUESTION_DATA);
             }
             
-            //test
             parseQs();
             addListeners();
         })
@@ -111,13 +109,9 @@
         for (var i = 0; i < MAX_QUESTIONS; i++) {
             var answers = getAFromQ(i);
 
-            console.log(answers)
 
             for (var j = 0; j < answers.length; j++) {
                 var radio = document.querySelector("#q" + i + "a" + answers[j]);
-
-            console.log("gssday")
-                console.log("#q" + i + "a" + answers[j]);
 
                 if (radio.checked) {
                     radio.parentElement.className = "a correct";
@@ -127,8 +121,6 @@
                 }
             }
         }
-
-        console.log(points);
     }
 
 
@@ -139,15 +131,11 @@
             var currRadio = document.querySelector("#q" + questionNum + "a" + i);
             var currAns = currRadio.parentElement;
 
-            console.log(currRadio, currAns)
-
             var currQ = parseInt(currAns.parentElement.parentElement.querySelector(".q").getAttribute("data-qnum"));
             var currA = parseInt(currAns.getAttribute("data-cnum"));
 
-            console.log(QUESTION_DATA[currQ].choices[currA]);
-
             var points = Number(QUESTION_DATA[currQ].choices[currA].pnts);
-            console.log(points);
+            
             if (points > 0) { //correct answer
                 answers.push(currA);
             }

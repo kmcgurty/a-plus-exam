@@ -29,6 +29,7 @@ gulp.task('watch', function() {
     gulp.watch(['src/javascript/**/*.js', 'src/javascript/**/*.json'], ['build-js']);
     gulp.watch('src/sass/**/*.scss', ['build-sass']);
     gulp.watch('src/*.html', ['build-html']);
+    gulp.watch('src/misc/**/*.*', ['build-misc']);
 });
 
 
@@ -68,6 +69,7 @@ gulp.task('build-misc', function(e) {
     var build = 'build/misc';
 
     return gulp.src(src)
+        .pipe(cleanDir(build))
         .pipe(gulp.dest(build))
 })
 

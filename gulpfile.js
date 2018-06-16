@@ -8,7 +8,7 @@ var sass = require('gulp-sass');
 var server = require('gulp-server-livereload');
 var livereload = require('gulp-livereload');
 
-gulp.task('default', ['build-all', 'watch', 'webserver']);
+gulp.task('default', ['build-all', 'webserver', 'watch']);
 gulp.task('build-all', ['build-sass', 'build-js', 'build-misc', 'build-html']);
 
 

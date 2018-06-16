@@ -2,6 +2,8 @@
     var QUESTION_DATA;
     var MAX_QUESTIONS = 25;
 
+    var sleepLoadTime = 1500;
+
     var toShuffle = false;
 
     $.getJSON("./javascript/901questions.json")
@@ -12,8 +14,13 @@
                 shuffle(QUESTION_DATA);
             }
             
-            parseQs();
-            addListeners();
+            //give some time to appreciate mr. loader duck
+            setTimeout(function(){
+                finishLoading();
+                appendHTML(); //add questions to the page
+                addListeners(); //add click listeners
+                //saveSession(); //save the session via cookies
+            }, sleepLoadTime);
         })
         .fail(function(e) {
             console.log("fail");
@@ -22,7 +29,7 @@
             }
         });
 
-    function parseQs() {
+    function appendHTML() {
         var container = document.getElementById("exam-container");
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
@@ -94,20 +101,32 @@
     }
 
 
+    function finishLoading(){
+        var loader = document.querySelector("#loader");
+        var deleteTime = 3000;
+
+        loader.className = "hide";
+        
+        setTimeout(function(){
+            loader.style.display = "none";
+        }, deleteTime);
+    }
+
+
     function addListeners() {
         document.addEventListener('click', function(e) {
             if (e.target.value == "Submit") {
-                grade();
+                gradeExam();
             }
         });
     }
 
-    //needs work, is gay
-    function grade() {
+    
+    function gradeExam() {
     	var points = 0;
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
-            var answers = getAFromQ(i);
+            var answers = getAnswersFromQ(i);
 
 
             for (var j = 0; j < answers.length; j++) {
@@ -123,8 +142,10 @@
         }
     }
 
-
-    function getAFromQ(questionNum) {
+    //due to how the answers are stored in the json
+    //this function cycles through the choices to find the answers
+    //returns array of answers
+    function getAnswersFromQ(questionNum) {
         var answers = [];
 
         for (var i = 0; i < QUESTION_DATA[questionNum].choices.length; i++) {
@@ -142,28 +163,6 @@
         }
 
         return answers
-    }
-
-    function checkAns(e) { //e == click event
-        var qElement = e.target.parentElement.parentElement.querySelector(".q");
-        var cElement = e.target;
-
-        var answered = qElement.parentElement.className.includes("answered");
-
-        if (e.target.className == "a" && !answered) {
-            var i = qElement.getAttribute("data-qnum");
-            var j = cElement.getAttribute("data-cnum");
-
-            var currQ = QUESTION_DATA[i].q;
-            var currA = QUESTION_DATA[i].choices[j].txt;
-            var correct = QUESTION_DATA[i].choices[j].pnts != 0;
-
-            if (correct) {
-                cElement
-            } else {
-                cElement.className = "a incorrect"
-            }
-        }
     }
 
     //thanks to https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array

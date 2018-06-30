@@ -7,6 +7,7 @@ var htmlclean = require('gulp-htmlclean');
 var sass = require('gulp-sass');
 var server = require('gulp-server-livereload');
 var livereload = require('gulp-livereload');
+var postcss = require('gulp-postcss');
 
 gulp.task('default', ['build-all', 'webserver', 'watch']);
 gulp.task('build-all', ['build-sass', 'build-js', 'build-misc', 'build-html']);
@@ -59,6 +60,7 @@ gulp.task('build-sass', function(e) {
     var build = 'build/stylesheets';
 
     return gulp.src(src)
+        .pipe(postcss([require('postcss-easing-gradients')])) //gradient plugin
         .pipe(sass().on('error', sass.logError))
         .pipe(cleanDir(build))
         .pipe(gulp.dest(build));

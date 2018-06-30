@@ -3,6 +3,13 @@ body {
     font-family: 'segoe ui';
 }
 
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(#FF9200, ease, rgb(230, 230, 230));
+}
+
 #exam-container {
     margin: 0px;
 }
@@ -58,7 +65,7 @@ body {
     color: green;
 }
 
-#loader{
+#loader {
     max-height: 100vh;
     max-width: 100vw;
     position: absolute;
@@ -67,7 +74,36 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.hide{
-    opacity:0;
-    transition:opacity 750ms ease-out;
+.button-group {
+    width: fit-content;
+    margin: auto;
+}
+
+input[type="button"] {
+    //position: absolute;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    left: calc(50vw - 190px/2);
+    background-color: rgba(22, 169, 255, 1);
+    color: white;
+    margin: 20px;
+}
+
+input[type="button"]:hover {
+    background-color: rgba(22, 169, 255, 0.75)
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 750ms ease-in;
+}
+
+.hide {
+    opacity: 0;
+    transition: opacity 750ms ease-out;
 }

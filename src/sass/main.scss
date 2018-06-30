@@ -7,7 +7,7 @@ body {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    background: linear-gradient(#FF9200, ease, rgb(230, 230, 230));
+    background: linear-gradient(black, ease, rgb(230, 230, 230));
 }
 
 #exam-container {
@@ -77,6 +77,11 @@ body {
 .button-group {
     width: fit-content;
     margin: auto;
+    text-align: center;
+}
+
+.button-group>input[type="button"] {
+    text-align: center;
 }
 
 input[type="button"] {

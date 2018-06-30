@@ -1,26 +1,38 @@
 (function() {
     var QUESTION_DATA;
-    var MAX_QUESTIONS = 25;
+    const MAX_QUESTIONS = 25;
 
-    var sleepLoadTime = 1500;
+    var minLoadTime = 1500;
+    var startTime = Date.now();
 
-    var toShuffle = false;
+    var lastVisit = Cookies.get("last_visit");
+    var toShuffle = !lastVisit; //shuffle if haven't visited before
 
     $.getJSON("./javascript/901questions.json")
         .done(function(data) {
-            QUESTION_DATA = data.d;
-           
+            var currTime = Date.now();
+            var loadTime = (currTime - startTime);
+            minLoadTime -= loadTime;
+
+            if (lastVisit === undefined) { //first visit
+                QUESTION_DATA = data.d;
+            } else { //has visited in the past 7 days
+                QUESTION_DATA = JSON.parse(localStorage.lastSession);
+
+            }
+
             if (toShuffle) {
                 shuffle(QUESTION_DATA);
             }
-            
+
             //give some time to appreciate mr. loader duck
-            setTimeout(function(){
+            setTimeout(function() {
                 finishLoading();
                 appendHTML(); //add questions to the page
+                loadSession();
                 addListeners(); //add click listeners
                 //saveSession(); //save the session via cookies
-            }, sleepLoadTime);
+            }, minLoadTime);
         })
         .fail(function(e) {
             console.log("fail");
@@ -33,6 +45,8 @@
         var container = document.getElementById("exam-container");
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
+            var lastVisit = new Date(Cookies.get("last_visit"));
+
             if (toShuffle) {
                 shuffle(QUESTION_DATA[i].choices);
             };
@@ -101,13 +115,17 @@
     }
 
 
-    function finishLoading(){
+    function finishLoading() {
         var loader = document.querySelector("#loader");
         var deleteTime = 3000;
 
         loader.className = "hide";
-        
-        setTimeout(function(){
+
+        document.querySelector(".title").className = "title show";
+        document.querySelector("#exam-container").className = "show";
+        document.querySelector(".button-group").className = "button-group show";
+
+        setTimeout(function() {
             loader.style.display = "none";
         }, deleteTime);
     }
@@ -118,12 +136,25 @@
             if (e.target.value == "Submit") {
                 gradeExam();
             }
+
+            if (e.target.value == "Save") {
+                saveSession();
+            }
+
+            if (e.target.value == "Reset") {
+                clearSession();
+            }
         });
+
+        window.addEventListener("beforeunload", function(e) {
+            saveSession();
+            event.preventDefault();
+        });
+
     }
 
-    
     function gradeExam() {
-    	var points = 0;
+        var points = 0;
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
             var answers = getAnswersFromQ(i);
@@ -142,6 +173,56 @@
         }
     }
 
+    function saveSession() {
+        Cookies.set("last_visit", Date.now(), { expires: 7, path: '' });
+
+        localStorage.lastSession = JSON.stringify(QUESTION_DATA);
+
+        var userAnswers = [];
+
+        for (var i = 0; i < MAX_QUESTIONS; i++) {
+            for (var j = 0; j < QUESTION_DATA[i].choices.length; j++) {
+                var radio = document.querySelector("#q" + i + "a" + j);
+
+                if (radio.checked) {
+                    userAnswers.push({ "q": i, "selection": j });
+                }
+            }
+        }
+
+        console.log(userAnswers);
+
+        localStorage.savedSelections = JSON.stringify(userAnswers);
+
+    }
+
+    function clearSession() {
+        var c = confirm("Are you sure you want to reset? All answers will be removed and questions will randomize.");
+
+        if (c) {
+            localStorage.removeItem("lastSession");
+            localStorage.removeItem("savedSelections");
+
+            Cookies.remove('last_visit', { path: '' });
+            location.reload();
+        }
+    }
+
+    function loadSession() {
+        var savedSelections = localStorage.savedSelections;
+
+        if (savedSelections != undefined) {
+            savedSelections = JSON.parse(savedSelections);
+
+            for (var i = 0; i < savedSelections.length; i++) {
+                var q = savedSelections[i].q;
+                var a = savedSelections[i].selection;
+
+                document.querySelector("#q" + q + "a" + a).checked = true;
+            }
+        }
+    }
+
     //due to how the answers are stored in the json
     //this function cycles through the choices to find the answers
     //returns array of answers
@@ -156,7 +237,7 @@
             var currA = parseInt(currAns.getAttribute("data-cnum"));
 
             var points = Number(QUESTION_DATA[currQ].choices[currA].pnts);
-            
+
             if (points > 0) { //correct answer
                 answers.push(currA);
             }

@@ -1,0 +1,3085 @@
+{
+    "d": [
+        {
+            "q": "A technician needs to run a diagnostic DVD on a laptop running Windows 8.1. After setting the boot order in the UEFI BIOS to the internal DVD-RW drive, the laptop still boots into Windows. Which of the following settings needs to be adjusted in order for the laptop to boot from the DVD-RW drive?",
+            "choices": [
+            {
+                "A": "TPM"
+            },
+            {
+                "B": "Virtualization"
+            },
+            {
+                "C": "Secure boot"
+            },
+            {
+                "D": "UEFI BIOS password"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "A technician connects a second monitor to a desktop. It is physically located to the right of the existing monitor, but the mouse pointer can only get to the second monitor by moving to the left edge of the screen of the first monitor. Which of following display settings needs to be adjusted to get the pointer to move with the physical placement of the monitor?",
+            "choices": [
+            {
+                "A": "Scaling"
+            },
+            {
+                "B": "Rotation"
+            },
+            {
+                "C": "Position"
+            },
+            {
+                "D": "Resolution"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "Which of the following types of cables are MOST likely to be used to connect to an external hard drive? (Select TWO).",
+            "choices": [
+            {
+                "A": "Molex"
+            },
+            {
+                "B": "SPDIF"
+            },
+            {
+                "C": "eSATA"
+            },
+            {
+                "D": "HDMI"
+            },
+            {
+                "E": "USB 3.0"
+            },
+            {
+                "F": "CAT6e"
+            }],
+            "ans": "CE"
+        },
+        {
+            "q": "A customer is building a high-end gaming PC and is seeking an appropriate power supply unit. Which of the following feature-sets of a power supply should be installed? (Select THREE).",
+            "choices": [
+            {
+                "A": "Mini-ITX form factor"
+            },
+            {
+                "B": "High number of connectors"
+            },
+            {
+                "C": "24-pin main connector"
+            },
+            {
+                "D": "20-pin main connector"
+            },
+            {
+                "E": "350-450 watts of power"
+            },
+            {
+                "F": "Dual 12v rails"
+            }],
+            "ans": "BCF"
+        },
+        {
+            "q": "Which of the following is required during the installation of a digitizer?",
+            "choices": [
+            {
+                "A": "Must be connected to the Internet"
+            },
+            {
+                "B": "Must be cleaned"
+            },
+            {
+                "C": "Must have the latest software installed"
+            },
+            {
+                "D": "Must be calibrated"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "A technician is troubleshooting an expansion card in a computer that allows the computer to receive faxes over a VoIP line. The line connected to the expansion card is MOST likely which of the following cable types?",
+            "choices": [
+            {
+                "A": "Coaxial"
+            },
+            {
+                "B": "CAT3"
+            },
+            {
+                "C": "CAT6"
+            },
+            {
+                "D": "Multi-mode fiber"
+            },
+            {
+                "E": "Single-mode fiber"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "For which of the following types of printers should a technician obtain a maintenance kit containing a fuser, transfer roller, and pickup rollers?",
+            "choices": [
+            {
+                "A": "Thermal"
+            },
+            {
+                "B": "Impact"
+            },
+            {
+                "C": "Inkjet"
+            },
+            {
+                "D": "Laser"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "Which of the following cable connection types is an example of a mini DIN?",
+            "choices": [
+            {
+                "A": "BNC"
+            },
+            {
+                "B": "PS/2"
+            },
+            {
+                "C": "RCA"
+            },
+            {
+                "D": "DB9"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "A customer wants a computer for performing a single-threaded task as quickly as possible. Which of the following CPU characteristics is the MOST important?",
+            "choices": [
+            {
+                "A": "Clock speed"
+            },
+            {
+                "B": "Hyperthreading"
+            },
+            {
+                "C": "Fan speed"
+            },
+            {
+                "D": "Number of cores"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "0 Which of the following display technologies provides the BEST range of visible colors?",
+            "choices": [
+            {
+                "A": "CRT"
+            },
+            {
+                "B": "LCD"
+            },
+            {
+                "C": "Plasma"
+            },
+            {
+                "D": "OLED"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "1 A customer wants to transfer data from the DVR to a DVD. Which of the following should be used on a workstation in order to extract the data for archiving?",
+            "choices": [
+            {
+                "A": "Optical drive"
+            },
+            {
+                "B": "Capture card"
+            },
+            {
+                "C": "Thunderbolt"
+            },
+            {
+                "D": "External storage"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "2 A small workgroup inherits a second-hand printer without networking capabilities. Which of the following is the BEST method of sharing this resource among the workgroup?",
+            "choices": [
+            {
+                "A": "Connect the printer to a Bluetooth adapter in order for the users to print"
+            },
+            {
+                "B": "Connect the printer by using the onboard Infrared port"
+            },
+            {
+                "C": "Connect the printer to a user’s workstation and share the device"
+            },
+            {
+                "D": "Connect the printer to a parallel switch box"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "3 A customer needs a router that will be able to handle all incoming and outgoing networking traffic independent of the rest of the building. The customer would like the PCs to immediately connect to the Internet and network resources without any additional configuration. Which of the following should the technician do to meet the requirements?",
+            "choices ": [
+            {
+                "A": "Configure the router for DHCP."
+            },
+            {
+                "B": "Configure the router for NAT."
+            },
+            {
+                "C": "Configure the router for port forwarding."
+            },
+            {
+                "D": "Configure the router for QoS."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "4 A user is attempting to print a color document but it will not print in color. Which of the following should the technician do FIRST to fix the problem?",
+            "choices": [
+            {
+                "A": "Reset printer IP address."
+            },
+            {
+                "B": "Change color toner cartridge."
+            },
+            {
+                "C": "Check grayscale setting."
+            },
+            {
+                "D": "Reinstall printer driver."
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "5 Which of the following expansion ports would be used to enable transfer of power, data, and video to peripheral devices on an Apple computer?",
+            "choices": [
+            {
+                "A": "HDMI Video"
+            },
+            {
+                "B": "Lightning"
+            },
+            {
+                "C": "USB 2.0"
+            },
+            {
+                "D": "Thunderbolt"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "6 Which of the following are the BEST features to include in a Home Theater PC? (Select TWO).",
+            "choices": [
+            {
+                "A": "Liquid Cooling"
+            },
+            {
+                "B": "VGA Output"
+            },
+            {
+                "C": "Dual Monitors"
+            },
+            {
+                "D": "Digital Audio"
+            },
+            {
+                "E": "HDMI Output"
+            },
+            {
+                "F": "NFC Capability"
+            }],
+            "ans": "DE"
+        },
+        {
+            "q": "7 A user reports the inability to access a company server using the FTP protocol. A technician finds other ports to the server seem to work normally. The technician has determined the problem is an incorrectly configured software firewall on the user’s machine. Which of the following is MOST likely the cause?",
+            "choices": [
+            {
+                "A": "Incoming connections on port 445 are blocked."
+            },
+            {
+                "B": "Outgoing connections on port 443 are blocked."
+            },
+            {
+                "C": "Incoming connections on port 143 are blocked."
+            },
+            {
+                "D": "Outgoing connections on port 80 are blocked."
+            },
+            {
+                "E": "Outgoing connections on port 21 are blocked."
+            }],
+            "ans": "E"
+        },
+        {
+            "q": "8 A user is reporting that a desktop computer with a RAID 1 array is running slowly. Upon performing a reboot, the technician sees S.M.A.R.T. errors during boot up. Which of the following tools would the technician use FIRST to troubleshoot the errors?",
+            "choices": [
+            {
+                "A": "diskpart"
+            },
+            {
+                "B": "chkdsk"
+            },
+            {
+                "C": "format"
+            },
+            {
+                "D": "clean"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "9 A technician is setting up a printer in a training room. The trainer needs to be able to print multiple copies of the training documentation for the classes. Which of the following should the technician configure on the printer to facilitate this?",
+            "choices": [
+            {
+                "A": "Scanning"
+            },
+            {
+                "B": "Collating"
+            },
+            {
+                "C": "Faxing"
+            },
+            {
+                "D": "Duplexing"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "0 A technician has been tasked with setting up email on a user’s phone. The user also wants the email to remain on the server. Which of the following ports would be BEST for setting up the phone?",
+            "choices": [
+            {
+                "A": "80"
+            },
+            {
+                "B": "110"
+            },
+            {
+                "C": "143"
+            },
+            {
+                "D": "443"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "3 There are 20 laptops in a room and they all need to connect wirelessly to the network. Which of the following would be the BEST device to use?",
+            "choices": [
+            {
+                "A": "Switch"
+            },
+            {
+                "B": "Router"
+            },
+            {
+                "C": "Access point"
+            },
+            {
+                "D": "Hub"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "4 A user’s iPhone will not power on. Which of the following should the technician do FIRST to isolate the problem?",
+            "choices": [
+            {
+                "A": "Plug the phone into a known good charger"
+            },
+            {
+                "B": "Remove and reseat the battery"
+            },
+            {
+                "C": "Replace the screen glass assembly"
+            },
+            {
+                "D": "Replace the battery and charge the phone."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "5 Which of the following protocols would be used for file sharing between MAC OS and Windows OS workstations on a LAN?",
+            "choices": [
+            {
+                "A": "IMAP"
+            },
+            {
+                "B": "SMB"
+            },
+            {
+                "C": "SSH"
+            },
+            {
+                "D": "RDP"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "7 A technician is troubleshooting an expansion card in a computer that allows the computer to receive faxes over a VoIP line. The telephone line connected to the expansion card is MOST likely which of the following cable types?",
+            "choices": [
+            {
+                "A": "Coaxial"
+            },
+            {
+                "B": "CAT3"
+            },
+            {
+                "C": "CAT6"
+            },
+            {
+                "D": "Multi-mode fiber"
+            },
+            {
+                "E": "Single-mode fiber"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "8 A technician works for a company that has virtual servers and virtual desktops. The company hires a user who only needs to access the virtual desktops. Which of the following is the MOST cost-effective workstation to purchase?",
+            "choices": [
+            {
+                "A": "Thin client"
+            },
+            {
+                "B": "Gaming PC"
+            },
+            {
+                "C": "CAD PC"
+            },
+            {
+                "D": "Thick client"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "9 Which of the following components of a motherboard is responsible for communications between CPU and RAM?",
+            "choices": [
+            {
+                "A": "North Bridge"
+            },
+            {
+                "B": "South Bridge"
+            },
+            {
+                "C": "PCIe slot"
+            },
+            {
+                "D": "CMOS battery"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "0 A computer technician wants to boot up a computer using a USB flash drive. After inserting the USB drive and powering on the computer, it does not boot to the flash drive and instead boots to the OS on the hard drive. Which of the following is MOST likely the cause?",
+            "choices": [
+            {
+                "A": "The boot order in the BIOS is incorrect"
+            },
+            {
+                "B": "The hard drive is not formatted"
+            },
+            {
+                "C": "There is a disc in the optical drive"
+            },
+            {
+                "D": "There is insufficient memory"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "1 A user, Joe, is watching a training education video and notices dark pin-sized dots in the same location on his laptop LCD screen. Which of the following is the cause of this issue?",
+            "choices": [
+            {
+                "A": "Distorted image"
+            },
+            {
+                "B": "Dead pixels"
+            },
+            {
+                "C": "Pixelation"
+            },
+            {
+                "D": "Incorrect color palette"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "2 A user wants to connect a laptop to the office LAN, charge the battery, and have a dual screen setup. Which of the following would BEST solve this user's requirements?",
+            "choices": [
+            {
+                "A": "Digitizer"
+            },
+            {
+                "B": "Thunderbolt"
+            },
+            {
+                "C": "Docking station"
+            },
+            {
+                "D": "Desktop mode"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "3 A customer asks a technician to upgrade a desktop computer to support the DVI-D interface. Which of the following PC expansion cards would the technician upgrade?",
+            "choices": [
+            {
+                "A": "FireWire card"
+            },
+            {
+                "B": "Network card"
+            },
+            {
+                "C": "Thunderbolt card"
+            },
+            {
+                "D": "Video card"
+            },
+            {
+                "E": "Sound card"
+            }],
+            "ans": "D"
+        },
+
+        {
+            "q": "4 A user is on a business trip with a company issued Windows 7 laptop and is unable to connect to corporate WLAN. To temporarily reconfigure the settings, which of the following must the technician must access?",
+            "choices": [
+            {
+                "A": "Start/Control Panel/Network and Sharing Center/Change Adapter Settings/Wireless Network Connection Properties"
+            },
+            {
+                "B": "Start/Control Panel/Network and Sharing Center/Manage Wireless Networks/Profile Types"
+            },
+            {
+                "C": "Start/Control Panel/Network and Sharing Center/Manage Wireless Networks/Add/Create an ad hoc network"
+            },
+            {
+                "D": "Start/Control Panel/Network and Sharing Center/Manage Wireless Networks/Add/Manually create a network profile"
+            }],
+            "ans": "A"
+        },
+
+        {
+            "q": "5 A smartphone user experiences difficulty removing the back cover of the device. Once finally removed, the battery appears to have swollen. The battery is still functional, but requires more frequent charging than it used to. Which of the following should the user do NEXT?",
+            "choices": [
+            {
+                "A": "Remove the battery and let it cool for 24 hours"
+            },
+            {
+                "B": "Fully discharge and then fully recharge the battery"
+            },
+            {
+                "C": "Short the battery terminals with a paper clip"
+            },
+            {
+                "D": "Replace the battery with a new one"
+            }],
+            "ans": "D"
+        },
+
+        {
+            "q": "6 Which of the following BIOS level settings allow an administrator to view warnings on possible hardware level changes?",
+            "choices": [
+            {
+                "A": "Drive lock"
+            },
+            {
+                "B": "Intrusion detection"
+            },
+            {
+                "C": "BIOS password"
+            },
+            {
+                "D": "Trusted platform module"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "7 A technician just installed an antivirus suite on a workstation. It is kept up-to-date and has recently scanned the system. A day later the user reports slower response times than usual. Which of the following is the user MOST likely experiencing?",
+            "choices": [
+            {
+                "A": "Advertisements"
+            },
+            {
+                "B": "Resource consumption"
+            },
+            {
+                "C": "A trojan infection"
+            },
+            {
+                "D": "Unremoved viruses"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "8 A technician installs a new video card in a desktop with onboard video. The technician boots the unit but sees no display. The monitor power light is on and the OS seems to be loading. Which of the following is the MOST likely cause?",
+            "choices": [
+            {
+                "A": "The display is defective."
+            },
+            {
+                "B": "The video card needs to be flashed."
+            },
+            {
+                "C": "The internal adapter has not been disabled."
+            },
+            {
+                "D": "The new video card is defective."
+            }],
+            "ans": "C"
+        },
+
+        {
+            "q": "9 A user is having problems printing. The technician believes the printer may be out of ink. Which of the following troubleshooting steps should be performed NEXT?",
+            "choices": [
+            {
+                "A": "Establish a plan of action to resolve the problem"
+            },
+            {
+                "B": "Implement the solution"
+            },
+            {
+                "C": "Test the theory to determine cause"
+            },
+            {
+                "D": "Verify full system functionality"
+            }],
+            "ans": "C"
+        },
+
+        {
+            "q": "0 The contrast ratio for an LCD monitor is BEST defined as the ratio between:",
+            "choices": [
+            {
+                "A": "display resolution and brightness."
+            },
+            {
+                "B": "power consumption and output intensity."
+            },
+            {
+                "C": "power savings of a comparable CRT monitor and the LCD."
+            },
+            {
+                "D": "the darkest and lightest displayed output."
+            }],
+            "ans": "D"
+        },
+
+        {
+            "q": "1 A technician arrives in Germany and discovers that when their PC is plugged into the outlet, no power is received. Which of the following actions should the technician take to get the PC to operate?",
+            "choices": [
+            {
+                "A": "Change the BIOS settings to the local time"
+            },
+            {
+                "B": "Adjust the voltage selector switch"
+            },
+            {
+                "C": "Attach a 220-volt power strip from the current region to the PC"
+            },
+            {
+                "D": "Attach a 120-volt battery backup power supply to the PC"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "2 Which of the following technologies is the MOST secure form of wireless encryption?",
+            "choices": [
+            {
+                "A": "SSL"
+            },
+            {
+                "B": "WPA"
+            },
+            {
+                "C": "WEP"
+            },
+            {
+                "D": "TLS"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "3 The technician is repairing a PC which appears to have a failing RAM module. After replacing the module, the extra memory still is not registering. Which of the following is MOST likely the issue?",
+            "choices": [
+            {
+                "A": "Jumper settings are incorrect"
+            },
+            {
+                "B": "The RAM module is defective"
+            },
+            {
+                "C": "The memory slot is defective"
+            },
+            {
+                "D": "CMOS needs to be flashed"
+            }],
+            "ans": "C"
+        },
+
+        {
+            "q": "4 Which of the following processing types allows two instructions to be received and processed nanoseconds apart?",
+            "choices": [
+            {
+                "A": "Quad core"
+            },
+            {
+                "B": "Triple core"
+            },
+            {
+                "C": "Dual core"
+            },
+            {
+                "D": "Hyper-threading"
+            }],
+            "ans": "D"
+        },
+
+        {
+            "q": "5 Which of the following operating system types will allow a user to utilize 16GB of RAM if installed on a PC workstation?",
+            "choices": [
+            {
+                "A": "8-bit"
+            },
+            {
+                "B": "16-bit"
+            },
+            {
+                "C": "32-bit"
+            },
+            {
+                "D": "64-bit"
+            }],
+            "ans": "D"
+        },
+
+        {
+            "q": "6 A technician needs to configure a computer system for MAXIMUM safety of stored data while staying cost effective. Which of the following RAID levels should be used?",
+            "choices": [
+            {
+                "A": "RAID 0"
+            },
+            {
+                "B": "RAID 1"
+            },
+            {
+                "C": "RAID 3"
+            },
+            {
+                "D": "RAID 5"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "7 Which of the following cable types delivers a signal over a single pin connector?",
+            "choices": [
+            {
+                "A": "Ethernet"
+            },
+            {
+                "B": "Coaxial"
+            },
+            {
+                "C": "S-video"
+            },
+            {
+                "D": "DVI"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "8 Which of the following has color codes that match on both ends (e.g. orange-white, orange, green- white, blue, blue-white, green, brown-white, brown)?",
+            "choices": [
+            {
+                "A": "UTP straight-through"
+            },
+            {
+                "B": "UTP crossover"
+            },
+            {
+                "C": "Multi-mode fiber"
+            },
+            {
+                "D": "Single-mode fiber"
+            }],
+            "ans": "A"
+        },
+
+        {
+            "q": "9 Which of the following channels should a technician choose when installing multiple wireless access points for a small office home office (SOHO) network to provide the MINIMAL interference?",
+            "choices": [
+            {
+                "A": "1, 6,11"
+            },
+            {
+                "B": "2, 5,10"
+            },
+            {
+                "C": "3, 7,9"
+            },
+            {
+                "D": "4, 5,8"
+            }],
+            "ans": "A"
+        },
+
+        {
+            "q": "0 Which of the following would likely be the MOST cost-effective media to use for storing 8GB of data?",
+            "choices": [
+            {
+                "A": "DVD RW"
+            },
+            {
+                "B": "CD-ROM"
+            },
+            {
+                "C": "Tape backup"
+            },
+            {
+                "D": "DVD+R DL"
+            }],
+            "ans": "D"
+        },
+
+        {
+            "q": "1 A network administrator has a requirement to implement a WiFi hot-spot for the public. Which of the following should be used for secure access?",
+            "choices": [
+            {
+                "A": "WEP and TKIP"
+            },
+            {
+                "B": "WPA2 and AES"
+            },
+            {
+                "C": "WPA and static IPs"
+            },
+            {
+                "D": "WPA2 and MAC filtering"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "2 An IT Director wants to increase security on the company website to prevent man-in-the-middle attacks. Which of the following Internet protocols should be implemented to meet the requirement?",
+            "choices": [
+            {
+                "A": "HTTPS"
+            },
+            {
+                "B": "IMAP"
+            },
+            {
+                "C": "TELNET"
+            },
+            {
+                "D": "SMTP"
+            }],
+            "ans": "A"
+        },
+
+        {
+            "q": "3 An office printer that was working earlier in the day is no longer printing any documents. Pre- existing workstations are manually configured to print to the printer directly over the network. A technician has started to troubleshoot the problem and determines that the printer can still be seen in the network directory. The technician has also verified that the printer can print self - diagnostic pages successfully.Which of the following is the MOST likely cause of the problem?",
+            "choices ": [
+            {
+                "A": "The printer's IP address has changed."
+            },
+            {
+                "B": "The network print spooler service has been restarted."
+            },
+            {
+                "C": "\"Perform Printer Maintenance\" message is displayed on the printer's LCD panel."
+            },
+            {
+                "D": "Two or more users sent print jobs simultaneously, causing a print collision."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "0 Which of the following devices is used to convert initially audible signals into digital signals to provide communication between two endpoints?",
+            "choices": [
+            {
+                "A": "Bridge"
+            },
+            {
+                "B": "Fax machine"
+            },
+            {
+                "C": "Repeater"
+            },
+            {
+                "D": "Modem"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "1 A user has lost connection to the Internet, but can still browse locally shared folders. Which of the following connections is MOST likely down?",
+            "choices": [
+            {
+                "A": "SAN"
+            },
+            {
+                "B": "WAN"
+            },
+            {
+                "C": "LAN"
+            },
+            {
+                "D": "PAN"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "2 A technician just finished replacing a laptop screen, and upon first boot notices that the screen provides a very faint but darkened image which cannot be adjusted. Which of the following was MOST likely left unplugged after replacement?",
+            "choices": [
+            {
+                "A": "CMOS Battery"
+            },
+            {
+                "B": "Mini-PCI Card"
+            },
+            {
+                "C": "Inverter"
+            },
+            {
+                "D": "DC Cord"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "3 Which of the following devices requires 3.3V of power from the motherboard?",
+            "choices": [
+            {
+                "A": "SLI Video Card"
+            },
+            {
+                "B": "DVD-ROM Drive"
+            },
+            {
+                "C": "USB Port"
+            },
+            {
+                "D": "Serial Port Card"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "4 Multicast addresses fall in which of the following classful address ranges?",
+            "choices": [
+            {
+                "A": "Class A"
+            },
+            {
+                "B": "Class B"
+            },
+            {
+                "C": "Class C"
+            },
+            {
+                "D": "Class D"
+            },
+            {
+                "E": "Class E"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "5 Which of the following translates digital signals into analog for transmission over phone lines?",
+            "choices": [
+            {
+                "A": "SAN"
+            },
+            {
+                "B": "VoIP"
+            },
+            {
+                "C": "Modem"
+            },
+            {
+                "D": "Bridge"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "6 Which of the following cable types typically transmits the video from an analog security camera back to the CCTV system?",
+            "choices": [
+            {
+                "A": "CAT5e"
+            },
+            {
+                "B": "CAT6"
+            },
+            {
+                "C": "RG-59"
+            },
+            {
+                "D": "STP"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "7 Which of the following cable types should always be used through life safety areas?",
+            "choices": [
+            {
+                "A": "PVC"
+            },
+            {
+                "B": "Plenum"
+            },
+            {
+                "C": "STP"
+            },
+            {
+                "D": "Fiber"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "8 Which of the following 802.11 standards has a MAXIMUM bandwidth throughput of 54Mbps and uses 2.4GHz frequency?",
+            "choices": [
+            {
+                "A": "A"
+            },
+            {
+                "B": "B"
+            },
+            {
+                "C": "G"
+            },
+            {
+                "D": "N"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "9 A user has 6,250 Megabytes worth of pictures they would like to back up. At the very MINIMUM, which of the following could backup these pictures to a single medium?",
+            "choices": [
+            {
+                "A": "DL DVD Burner"
+            },
+            {
+                "B": "LTO Drive"
+            },
+            {
+                "C": "CD Burner"
+            },
+            {
+                "D": "Blu-Ray Burner"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "0 Laser printers and thermal printers both use a heating element to function. Which of the following differentiates them?",
+            "choices": [
+            {
+                "A": "Laser printers require a liquid pigment."
+            },
+            {
+                "B": "Thermal printers use device specific stock."
+            },
+            {
+                "C": "Laser printers do not require thermal toner."
+            },
+            {
+                "D": "Thermal printers utilize refillable heat toner."
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "1 When referring to laser printing, which of the following describes the development process?",
+            "choices": [
+            {
+                "A": "The corona wire places a static charge on the drum."
+            },
+            {
+                "B": "Toner is pulled to the charged areas of the drum."
+            },
+            {
+                "C": "Toner is pulled from the drum to the paper."
+            },
+            {
+                "D": "The toner is permanently affixed to the paper."
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "2 Which of the following would MOST likely be found on a docking station versus a port replicator?",
+            "choices": [
+            {
+                "A": "USB Hub"
+            },
+            {
+                "B": "VGA Port"
+            },
+            {
+                "C": "PS/2 Slot"
+            },
+            {
+                "D": "DVD-ROM"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "3 A technician has been tasked with designing a new printing solution for a small team. They want to be able to use a central printer from their shared workspace as well as the conference room next door. Which of the following connection methods would BEST suit their need?",
+            "choices": [
+            {
+                "A": "USB"
+            },
+            {
+                "B": "Infrared (IR)"
+            },
+            {
+                "C": "Bluetooth"
+            },
+            {
+                "D": "Wireless"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "4 ESD mats are useful for protecting against which of the following hazards?",
+            "choices": [
+            {
+                "A": "Chemical burns"
+            },
+            {
+                "B": "Electromagnetic interference"
+            },
+            {
+                "C": "RF interference"
+            },
+            {
+                "D": "Static buildup"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "5 When a technician suspects prohibited activity on an organization's network or computers, which of the following is the FIRST step they should take?",
+            "choices": [
+            {
+                "A": "Confirm an actual infraction has taken place"
+            },
+            {
+                "B": "Confront the suspected person with incident details"
+            },
+            {
+                "C": "Notify others so that peers will stop the activity"
+            },
+            {
+                "D": "Erase the contents of the user's computer and disable their account"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "6 A customer wants to be able to archive a large 15 to 20 GB project to optical media using a single disk. Which of the following should a technician recommend?",
+            "choices": [
+            {
+                "A": "Blu-Ray writer"
+            },
+            {
+                "B": "DVD-RW drive"
+            },
+            {
+                "C": "Dual Layer DVD burner"
+            },
+            {
+                "D": "CD-ROM burner"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "7 Which of the following printer types requires calibration to ensure the nozzle is adjusted to print properly?",
+            "choices": [
+            {
+                "A": "Impact"
+            },
+            {
+                "B": "Inkjet"
+            },
+            {
+                "C": "Laser"
+            },
+            {
+                "D": "Thermal"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "8 A home user's PC has an over-clocked CPU with a relatively small heat sync, small fans on the 800W power supply, and a high-end video card. Which of the following is the recommended solution that will manage heat more effectively?",
+            "choices": [
+            {
+                "A": "Replace the CPU heat sync with a high RPM fan"
+            },
+            {
+                "B": "Purchase an energy efficient power supply"
+            },
+            {
+                "C": "Not over-clocking the CPU"
+            },
+            {
+                "D": "Liquid cooling system"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "9 Which of the following wireless standards operates at 5GHz? (Select TWO).",
+            "choices": [
+            {
+                "A": "802.11a"
+            },
+            {
+                "B": "802.11b"
+            },
+            {
+                "C": "802.11bg"
+            },
+            {
+                "D": "802.11g"
+            },
+            {
+                "E": "802.11n"
+            }],
+            "ans": "AE"
+        },
+        {
+            "q": "0 A technician is preparing to perform a processor upgrade on a critical company server. Which of the following precautions should be taken FIRST before performing such work on a system? (Select TWO).",
+            "choices": [
+            {
+                "A": "Discharge all capacitors inside the PSU"
+            },
+            {
+                "B": "Remove all jewelry"
+            },
+            {
+                "C": "Ensure the PSU is plugged into a grounded electrical socket"
+            },
+            {
+                "D": "Ensure humidity levels within the room are lowered"
+            },
+            {
+                "E": "Put on an anti-static wrist strap"
+            }],
+            "ans": "BE"
+        },
+        {
+            "q": "1 Which of the following devices uses both light and a lens to facilitate data warehousing?",
+            "choices": [
+            {
+                "A": "Digitizer"
+            },
+            {
+                "B": "Touch screen"
+            },
+            {
+                "C": "Barcode reader"
+            },
+            {
+                "D": "Camera"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "2 Activity logs show a large amount of data downloaded from a company server to an employee's workstation overnight. Upon further investigation, the technician identifies the data as being outside the scope of the employee's regular job functions. Which of the following steps should the technician take NEXT?",
+            "choices": [
+            {
+                "A": "Report through proper channels"
+            },
+            {
+                "B": "Document the changes"
+            },
+            {
+                "C": "Continue to track more evidence"
+            },
+            {
+                "D": "Preserve the chain of custody"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "3 Which of the following supports a MAXIMUM frequency of 100MHz?",
+            "choices": [
+            {
+                "A": "Cat5"
+            },
+            {
+                "B": "Cat5e"
+            },
+            {
+                "C": "Cat6"
+            },
+            {
+                "D": "Cat6a"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "4 A brand new datacenter has been wired with all CAT6a wiring. A technician has been tasked to immediately install and boot up an already configured mission critical file server. Prior to turning the server on, the technician realizes that they had brought CAT5e patch cords by mistake. Which of the following should the technician do ?",
+            "choices ": [
+            {
+                "A": "Install the CAT5e cable, boot the server and then return and replace it later."
+            },
+            {
+                "B": "Inform the customer and recommend temporarily using the CAT5e cable."
+            },
+            {
+                "C": "Install the CAT5e cable, document the installation and leave the premises."
+            },
+            {
+                "D": "Inform the customer that the server will be available as soon as a CAT6a cable is acquired."
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "5 Which of the following helps law enforcement show accountability for evidence as it was gathered?",
+            "choices": [
+            {
+                "A": "Drive hashing"
+            },
+            {
+                "B": "Chain of custody"
+            },
+            {
+                "C": "Drive image creation"
+            },
+            {
+                "D": "Court subpoena"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "6 A SOHO environment utilizes network hardware address filtering to minimize unauthorized use of its network infrastructure. A technician has been asked to install a shared network printer in the environment. Which of the following MUST the technician know in order to add the printer to the environment?",
+            "choices": [
+            {
+                "A": "IP address of the printer"
+            },
+            {
+                "B": "MAC address of the printer"
+            },
+            {
+                "C": "Subnet mask of the network"
+            },
+            {
+                "D": "Firmware version of the printer"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "7 A technician has been asked to install a printer on a Windows XP machine. Through which of the following Control Panel utilities will the technician install the printer?",
+            "choices": [
+            {
+                "A": "Printers and Devices"
+            },
+            {
+                "B": "Devices and Printers"
+            },
+            {
+                "C": "Printers and Faxes"
+            },
+            {
+                "D": "Devices"
+            }],
+            "ans": "C"
+        },
+
+        {
+            "q": "8 A technician has been asked to share a laser printer amongst the users in an HR workgroup. The printer will need to be accessed from distances up to 200 feet through no more than one to two, hollow, dry board walls. Which of the following methods should be used ?",
+            "choices": [
+            {
+                "A": "802.11x"
+            },
+            {
+                "B": "PAN"
+            },
+            {
+                "C": "USB"
+            },
+            {
+                "D": "Infrared (IR)"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "9 A technician has been asked to identify the unknown network addresses from a series of printers attached to the network via external hardware printer servers. Which of the following will provide the technician with the necessary information?",
+            "choices": [
+            {
+                "A": "Performing a device self test print page from each printer"
+            },
+            {
+                "B": "Performing a device print page from each print server"
+            },
+            {
+                "C": "Performing a device factory reset on each print server"
+            },
+            {
+                "D": "Performing a PING of each device address without the FQDN"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "0 RAID 5 requires a minimum of how many hard drives?",
+            "choices": [
+            {
+                "A": "1"
+            },
+            {
+                "B": "2"
+            },
+            {
+                "C": "3"
+            },
+            {
+                "D": "4"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "1 When installing a floppy drive data cable, it is important for a technician to ensure which of the following? (Select TWO).",
+            "choices": [
+            {
+                "A": "Availability of compatible power connectors"
+            },
+            {
+                "B": "Adequate hard drive capacity"
+            },
+            {
+                "C": "Correct CPU clock speeds"
+            },
+            {
+                "D": "Correct Master/Slave jumper settings"
+            },
+            {
+                "E": "Proper orientation of the data cable"
+            }],
+            "ans": "AE"
+        },
+        {
+            "q": "2 A laser multi-function device in an office is able to scan documents, but users are reporting that when they try to make copies they receive an error. Which of the following troubleshooting steps should a technician try FIRST?",
+            "choices": [
+            {
+                "A": "Apply a new preventative maintenance kit."
+            },
+            {
+                "B": "Ensure the MFD is connected and on the network."
+            },
+            {
+                "C": "Replace all empty ink cartridges in the MFD."
+            },
+            {
+                "D": "Check the toner level to see if it is low."
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "3 When installing a laptop at a desk that will be using stationary dual monitors, which of the following ports should be used? (Select TWO).",
+            "choices": [
+            {
+                "A": "VGA"
+            },
+            {
+                "B": "IEEE 1394"
+            },
+            {
+                "C": "PCIe"
+            },
+            {
+                "D": "PCMCIA"
+            },
+            {
+                "E": "ExpressPort"
+            },
+            {
+                "F": "HDMI"
+            }],
+            "ans": "AF"
+        },
+        {
+            "q": "4 Which of the following is the maximum throughput of a USB 3.0 connection?",
+            "choices": [
+            {
+                "A": "800 Mbps"
+            },
+            {
+                "B": "3 Gbps"
+            },
+            {
+                "C": "4.8 Gbps"
+            },
+            {
+                "D": "10 Gbps"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "5 Which of the following types of connectors can use a maximum of 8 strands of wires?",
+            "choices": [
+            {
+                "A": "RJ-11"
+            },
+            {
+                "B": "RS-232"
+            },
+            {
+                "C": "RJ-45"
+            },
+            {
+                "D": "BNC"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "6 A system board has six slots for memory chips, aligned in two banks. Which of the following is the optimal memory configuration this board supports?",
+            "choices": [
+            {
+                "A": "Multi Mode"
+            },
+            {
+                "B": "Dual Channel"
+            },
+            {
+                "C": "Triple Channel"
+            },
+            {
+                "D": "Single Channel"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "7 A technician is trying to install a full-size PCI card into a slim line desktop PC. Which of the following would MOST likely be required to facilitate installation?",
+            "choices": [
+            {
+                "A": "RAID card"
+            },
+            {
+                "B": "CNR card"
+            },
+            {
+                "C": "Riser card"
+            },
+            {
+                "D": "MCA card"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "8 Which of the following network cable types has the longest range?",
+            "choices": [
+            {
+                "A": "CAT5e"
+            },
+            {
+                "B": "Single-mode fiber"
+            },
+            {
+                "C": "Multi-mode fiber"
+            },
+            {
+                "D": "CAT6"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "9 A technician is asked to repair a broken Ethernet jack in a conference room. Which of the following tools would the technician use when repairing the wall jack?",
+            "choices": [
+            {
+                "A": "Crimper"
+            },
+            {
+                "B": "Toner probe"
+            },
+            {
+                "C": "Punchdown tool"
+            },
+            {
+                "D": "Multimeter"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "00 A user with a USB printer would like to print from more than one computer. Which of the following features should be used?",
+            "choices": [
+            {
+                "A": "File and printer sharing"
+            },
+            {
+                "B": "Internet connection sharing"
+            },
+            {
+                "C": "Enable printer duplexing"
+            },
+            {
+                "D": "USB hub"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "01 Which of the following is the MAXIMUM number of 10Mb audio files that a user can store on a CD- RW?",
+            "choices": [
+            {
+                "A": "50"
+            },
+            {
+                "B": "70"
+            },
+            {
+                "C": "100"
+            },
+            {
+                "D": "120"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "02 Which of the following connectors provides the capability to pass both analog and digital signals?",
+            "choices": [
+            {
+                "A": "VGA"
+            },
+            {
+                "B": "BNC"
+            },
+            {
+                "C": "DVI-I"
+            },
+            {
+                "D": "USB 3.0"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "03 A service call was opened for a thermal printer that has poor print quality. Which of the following should the technician do FIRST?",
+            "choices": [
+            {
+                "A": "Replace the print head with OEM replacement."
+            },
+            {
+                "B": "Use a cotton swab and alcohol to clean the print head."
+            },
+            {
+                "C": "Use the printer manufacturer's cleaning kit to clean the print head."
+            },
+            {
+                "D": "Use an industry approved cleaning kit to clean the print rollers."
+            },
+            {
+                "E": "Use the printer manufacturer's cleaning kit to clean the print rollers."
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "04 A technician needs to attach a network cable to a wall jack in the conference room. After running the cable through the conduit to the conference room, which of the following tools would BEST be used to connect the cable to the wall jack?",
+            "choices": [
+            {
+                "A": "Punchdown"
+            },
+            {
+                "B": "Loopback plug"
+            },
+            {
+                "C": "Multimeter"
+            },
+            {
+                "D": "Crimper"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "05 Which of the following devices uses MAC tables to allow multiple computers to access a single network connection?",
+            "choices": [
+            {
+                "A": "Hub"
+            },
+            {
+                "B": "Firewall"
+            },
+            {
+                "C": "VoIP"
+            },
+            {
+                "D": "Switch"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "06 Which of the following laser printer components will flip the paper to allow for printing on both sides?",
+            "choices": [
+            {
+                "A": "Paper registration assembly"
+            },
+            {
+                "B": "Paper pickup assembly"
+            },
+            {
+                "C": "Duplex assembly"
+            },
+            {
+                "D": "Image transfer belt"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "07 A printer technician is sent to work on a fuser in a laser printer that is not adhering toner properly to the paper. While onsite Joe, an end user, reports that he has been having frequent paper jams as well. Which of the following would be the BEST course of action to repair the printer?",
+            "choices": [
+            {
+                "A": "Install a manufacturer recommended maintenance kit"
+            },
+            {
+                "B": "Install the fuser, replace the toner cartridge, and replace the pickup and separation rollers"
+            },
+            {
+                "C": "Install the fuser and also replace the high voltage power supply"
+            },
+            {
+                "D": "Install the fuser as the paper jams were probably also caused by the defective fuser"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "08 Which of the following is used to provide secure file storage to network users only?",
+            "choices": [
+            {
+                "A": "NAS"
+            },
+            {
+                "B": "IMAP"
+            },
+            {
+                "C": "SAN"
+            },
+            {
+                "D": "SSH"
+            }],
+            "ans": "A"
+        },
+
+        {
+            "q": "09 A technician has replaced the NIC in a computer running Windows XP Professional and has properly installed the device driver. The computer indicates the card has network connectivity, but the technician is unable to access the Internet. Which of the following should the technician do NEXT to finish the NIC installation?",
+            "choices": [
+            {
+                "A": "Change the computer and DNS server's IP addresses in the Action Center"
+            },
+            {
+                "B": "Use ipconfig to check the current settings and Network Connections to make changes"
+            },
+            {
+                "C": "Assign the NIC an APIPA address using ipconfig and the network setup wizard"
+            },
+            {
+                "D": "Reboot the computer and configure the necessary network settings in the BIOS"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "10 Which of the following Internet connection types has the HIGHEST latency?",
+            "choices": [
+            {
+                "A": "WiMAX"
+            },
+            {
+                "B": "Satellite"
+            },
+            {
+                "C": "Fiber"
+            },
+            {
+                "D": "Dial-up"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "11 Which of the following would BEST describe the capabilities of a 64-bit operating system?",
+            "choices": [
+            {
+                "A": "Capable of managing dual NICs."
+            },
+            {
+                "B": "Capable of effectively managing 1TB SSD."
+            },
+            {
+                "C": "Capable of managing more than 4 displays."
+            },
+            {
+                "D": "Capable of utilizing 128GB RAM."
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "12 Joe, a user, wants to modify the fan speed settings on his PC. Which of the following locations allows the fan speed settings to be changed?",
+            "choices": [
+            {
+                "A": "BIOS"
+            },
+            {
+                "B": "Device Manager"
+            },
+            {
+                "C": "Motherboard Jumpers"
+            },
+            {
+                "D": "Computer Management"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "13 A user has purchased a new touch screen tablet and is reporting that the touch interface is extremely inaccurate and almost unusable. Which of the following actions should a technician take FIRST to resolve the issue?",
+            "choices": [
+            {
+                "A": "Return the tablet to the manufacturer"
+            },
+            {
+                "B": "Give the user a stylus to use"
+            },
+            {
+                "C": "Calibrate the touch interface"
+            },
+            {
+                "D": "Verify touch interface connectivity inside the screen"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "14 A technician needs to install a projector into a conference room with several windows. Which of the following should the technician consider so that the displayed image is always visible?",
+            "choices": [
+            {
+                "A": "Resolution"
+            },
+            {
+                "B": "Lumens"
+            },
+            {
+                "C": "Anti-glare filter"
+            },
+            {
+                "D": "Bulb life"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "15 A common method of accessing computers remotely that uses port 23 is known as?",
+            "choices": [
+            {
+                "A": "LDAP"
+            },
+            {
+                "B": "RDP"
+            },
+            {
+                "C": "Telnet"
+            },
+            {
+                "D": "FTP"
+            }],
+            "ans": "C"
+        },
+
+        {
+            "q": "16 Which of the following allows for audio and video connections using a single cable?",
+            "choices": [
+            {
+                "A": "HDMI"
+            },
+            {
+                "B": "Parallel"
+            },
+            {
+                "C": "DVI-A"
+            },
+            {
+                "D": "eSATA"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "17 Which of the following standards is an expansion card slot used only for graphics?",
+            "choices": [
+            {
+                "A": "PCIe"
+            },
+            {
+                "B": "AGP"
+            },
+            {
+                "C": "PCI"
+            },
+            {
+                "D": "miniPCI"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "18 A technician, Anne, has repaired a CEO's laptop. Which of the following is the LAST step that should be taken after the repair is completed?",
+            "choices": [
+            {
+                "A": "Prepare a hot spare in preparation for the next repair"
+            },
+            {
+                "B": "Document all of the services provided"
+            },
+            {
+                "C": "Communicate the status of the repair with the CEO"
+            },
+            {
+                "D": "Offer other repair options if they are available"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "19 Modern laptop screens are much brighter because of advances in which of the following technologies?",
+            "choices": [
+            {
+                "A": "LED"
+            },
+            {
+                "B": "Batteries"
+            },
+            {
+                "C": "Inverter"
+            },
+            {
+                "D": "Plasma"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "20 A technician, Anne, notices there are no hardware volume control buttons on the new laptops that were ordered. Which of the following would control the volume on the laptop?",
+            "choices": [
+            {
+                "A": "Software only"
+            },
+            {
+                "B": "Bluetooth"
+            },
+            {
+                "C": "Function keys"
+            },
+            {
+                "D": "WiFi switch"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "21 A technician wants to simplify users' wireless configuration in a new remote office. Which of the following must be configured on the access point to allow wireless clients to automatically negotiate secure authentication with the SOHO access point?",
+            "choices": [
+            {
+                "A": "Enable QoS"
+            },
+            {
+                "B": "Enable SSID Broadcast"
+            },
+            {
+                "C": "Enable WPS"
+            },
+            {
+                "D": "Enable MAC filtering"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "22 Ann, a technician, is inspecting a PC with an Intel Core 2 Quad processor and finds that the Task Manager is reporting the system as having 8 cores. She is convinced this system only has four cores. Which of the following technologies is causing the discrepancy?",
+            "choices": [
+            {
+                "A": "Hyperthreading"
+            },
+            {
+                "B": "Intel SSE3"
+            },
+            {
+                "C": "L2 Cache"
+            },
+            {
+                "D": "S.M.A.R.T."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "23 Which of the following cable types designates that it can safely be run through a drop ceiling?",
+            "choices": [
+            {
+                "A": "STP"
+            },
+            {
+                "B": "Plenum"
+            },
+            {
+                "C": "CAT5e"
+            },
+            {
+                "D": "UTP"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "24 A technician is installing new hard drives into a server and needs to set IDs to numbers ranging from 0-15. Which of the following types of drives is the technician installing?",
+            "choices": [
+            {
+                "A": "SATA"
+            },
+            {
+                "B": "SCSI"
+            },
+            {
+                "C": "USB"
+            },
+            {
+                "D": "EIDE"
+            }],
+            "ans": "B"
+        },
+
+        {
+            "q": "25 By default, which of the following ports is used for SMTP?",
+            "choices": [
+            {
+                "A": "21"
+            },
+            {
+                "B": "25"
+            },
+            {
+                "C": "110"
+            },
+            {
+                "D": "143"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "26 A small office with five computers on a workgroup that are directly connected to a switch is an example of which of the following network topologies?",
+            "choices": [
+            {
+                "A": "Ring"
+            },
+            {
+                "B": "Bus"
+            },
+            {
+                "C": "Mesh"
+            },
+            {
+                "D": "Star"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "27 Joe would like an Internet connection that is always on, stable, and not influenced by atmospheric conditions. Which of the following Internet connection types would BEST meet Joe's requirements?",
+            "choices": [
+            {
+                "A": "Dial-up"
+            },
+            {
+                "B": "Mobile Hotspot"
+            },
+            {
+                "C": "Satellite"
+            },
+            {
+                "D": "Cable"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "28 A customer is terminating an employee for suspected activity that is against company policy. They have called Ann to consult with them on how to best preserve any evidence the company may be required to provide in court. Which of the following would BEST preserve the integrity of the data and best serve the client?",
+            "choices": [
+            {
+                "A": "Create an image of the hard drive and store it on a NTFS drive."
+            },
+            {
+                "B": "Remove and secure any HDD from the computer, documenting the process."
+            },
+            {
+                "C": "Store the computer in the server room until it is required."
+            },
+            {
+                "D": "Lock the user out of the computer and let another employee use it until needed."
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "29 Which of the following wireless standards operates at 5 GHz and has a maximum speed of 54 Mbps?",
+            "choices": [
+            {
+                "A": "802.11a"
+            },
+            {
+                "B": "802.11b"
+            },
+            {
+                "C": "802.11g"
+            },
+            {
+                "D": "802.11n"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "30 Ann, a user, brings her laptop in and reports that it is no longer charging. Additionally, the laptop can no longer stay powered on even when plugged in. Which of the following hardware components is MOST likely in need of replacement?",
+            "choices": [
+            {
+                "A": "Hard drive"
+            },
+            {
+                "B": "Memory modules"
+            },
+            {
+                "C": "System fan"
+            },
+            {
+                "D": "Wireless card"
+            },
+            {
+                "E": "System board"
+            }],
+            "ans": "E"
+        },
+        {
+            "q": "31 Joe, a user, has a new slim profile laptop and is in need of additional USB ports. He has also requested FireWire connection capabilities which his laptop does not provide. Which of the following would BEST fit the specifications Joe has provided?",
+            "choices": [
+            {
+                "A": "A docking station"
+            },
+            {
+                "B": "An external USB hub"
+            },
+            {
+                "C": "A USB to FireWire converter"
+            },
+            {
+                "D": "A cable lock"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "32 Ann is cleaning the printer pickup rollers and spills the cleaning fluid on her leg. In which of the following would she find the proper way to cleanup the spill?",
+            "choices": [
+            {
+                "A": "Inventory spreadsheet"
+            },
+            {
+                "B": "MSDS"
+            },
+            {
+                "C": "Project management plan"
+            },
+            {
+                "D": "EULA"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "33 Which of the following is the MAXIMUM number of unique IP addresses on an IPv4 Class A network?",
+            "choices": [
+            {
+                "A": "254"
+            },
+            {
+                "B": "65 Thousand"
+            },
+            {
+                "C": "16.3 Million"
+            },
+            {
+                "D": "340 Trillion"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "34 Which of the following is an advantage of an IPv6 network?",
+            "choices": [
+            {
+                "A": "Virtually unlimited number of network addresses"
+            },
+            {
+                "B": "Backwards compatible with all network devices and operating systems"
+            },
+            {
+                "C": "Less security concerns"
+            },
+            {
+                "D": "Higher available speed"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "35 Which of the following connection types is capable of transmissions speeds up 100 Gbps?",
+            "choices": [
+            {
+                "A": "Fiber"
+            },
+            {
+                "B": "Coaxial"
+            },
+            {
+                "C": "Infrared"
+            },
+            {
+                "D": "DSL"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "36 Which of the following wireless transmission methods requires line of sight?",
+            "choices": [
+            {
+                "A": "Infrared"
+            },
+            {
+                "B": "RFID"
+            },
+            {
+                "C": "802.11a"
+            },
+            {
+                "D": "Bluetooth"
+            }],
+            "ans": "A"
+        },
+
+        {
+            "q": "37 Joe's company just moved into a new building, and the company's management is very concerned about proper equipment grounding. Which of the following risks are they attempting to mitigate by grounding equipment?",
+            "choices": [
+            {
+                "A": "Security breaches"
+            },
+            {
+                "B": "Electrical shock"
+            },
+            {
+                "C": "Chemical burns"
+            },
+            {
+                "D": "Equipment theft"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "38 A user has a CAD / CAM workstation that is to be reconfigured into a Gaming PC. Which of the following would be the EASIEST and MOST effective upgrade?",
+            "choices": [
+            {
+                "A": "Add better Sound Card"
+            },
+            {
+                "B": "Install a TV Tuner"
+            },
+            {
+                "C": "Add additional L2 cache"
+            },
+            {
+                "D": "Install USB 3.0 Card"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "39 Which of the following would be used to connect two remote sites?",
+            "choices": [
+            {
+                "A": "Switch"
+            },
+            {
+                "B": "Access point"
+            },
+            {
+                "C": "Router"
+            },
+            {
+                "D": "Hub"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "40 A bank wants to maximize the security of employee computer data displayed on their screen. Which of the following would BEST accomplish these goals?",
+            "choices": [
+            {
+                "A": "Keyboard filters"
+            },
+            {
+                "B": "Privacy filters"
+            },
+            {
+                "C": "Screensavers"
+            },
+            {
+                "D": "Secure display drivers"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "41 Which of the following cable types is used to transmit data from a satellite dish to the satellite modem?",
+            "choices": [
+            {
+                "A": "CAT5e"
+            },
+            {
+                "B": "CAT3"
+            },
+            {
+                "C": "Fiber"
+            },
+            {
+                "D": "RG-6"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "42 A customer needs to run several virtual machines on their design workstation to work on cross platform software. Which of the following should be maximized to improve workstation performance? (Select TWO)",
+            "choices": [
+            {
+                "A": "Cooling fans"
+            },
+            {
+                "B": "RAM"
+            },
+            {
+                "C": "Number of CPU cores"
+            },
+            {
+                "D": "Storage space E. PCIe slots"
+            }],
+            "ans": "BC"
+        },
+        {
+            "q": "43 Older video cards used S-video to output to a TV. This standard has been replaced by:",
+            "choices": [
+            {
+                "A": "FireWire."
+            },
+            {
+                "B": "SCSI."
+            },
+            {
+                "C": "coaxial."
+            },
+            {
+                "D": "HDMI."
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "44 Which of the following is the BEST approach a technician should take when informing a customer about their findings of any specific computer problem?",
+            "choices": [
+            {
+                "A": "Use non-technical terms."
+            },
+            {
+                "B": "Use the appropriate acronyms."
+            },
+            {
+                "C": "Use proper technical terms."
+            },
+            {
+                "D": "Use email to ensure a written record."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "45 Most notebook PCs have their WiFi antenna located in the:",
+            "choices": [
+            {
+                "A": "LCD."
+            },
+            {
+                "B": "WiFi card."
+            },
+            {
+                "C": "I/O area."
+            },
+            {
+                "D": "top cover."
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "46 Which of the following displays has the HIGHEST Hz frequency?",
+            "choices": [
+            {
+                "A": "Plasma"
+            },
+            {
+                "B": "LED"
+            },
+            {
+                "C": "CRT"
+            },
+            {
+                "D": "LCD"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "47 Which of the following devices can be used to merge traffic between two different network topologies?",
+            "choices": [
+            {
+                "A": "Hub"
+            },
+            {
+                "B": "Bridge"
+            },
+            {
+                "C": "Switch"
+            },
+            {
+                "D": "Access point"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "48 A gaming PC has been built from components. The system is getting power but there is no video on the display. Which of the following is the MOST likely cause of the issue?",
+            "choices": [
+            {
+                "A": "The display is defective and needs to be replaced."
+            },
+            {
+                "B": "The SATA controller is disabled in the BIOS."
+            },
+            {
+                "C": "The PCIe 6-pin power cable is not connected to the high-end video card."
+            },
+            {
+                "D": "The CPU is not powerful enough to provide adequate speed to the system."
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "49 Which of the following RAM types is used if it is labeled as 4 GB PC1333?",
+            "choices": [
+            {
+                "A": "RAMBUS"
+            },
+            {
+                "B": "DDR3"
+            },
+            {
+                "C": "SDIMM"
+            },
+            {
+                "D": "SIM"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "50 Which of the following versions of Windows XP would a technician MOST likely install for a small business?",
+            "choices": [
+            {
+                "A": "Windows XP Professional 64-bit"
+            },
+            {
+                "B": "Windows XP Professional"
+            },
+            {
+                "C": "Windows XP Media Center"
+            },
+            {
+                "D": "Windows XP Home"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "51 Which of the following is the subnet mask for a Class A IP address?",
+            "choices": [
+            {
+                "A": "127.0.0.1"
+            },
+            {
+                "B": "255.0.0.0"
+            },
+            {
+                "C": "255.255.255.0"
+            },
+            {
+                "D": "255.255.255.254"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "52 Which of the following BEST explains how the data rate is doubled in DDR RAM?",
+            "choices": [
+            {
+                "A": "CPU clock speed is doubled"
+            },
+            {
+                "B": "Uses 64-bit instead of 32-bit architecture"
+            },
+            {
+                "C": "Memory clock speed is doubled"
+            },
+            {
+                "D": "Data transfer on both clock edges"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "53 A technician is building a custom gaming computer. Which of the following is the FASTEST memory the technician can use?",
+            "choices": [
+            {
+                "A": "DDR2 CAS7"
+            },
+            {
+                "B": "DDR3 CAS9"
+            },
+            {
+                "C": "DDR3 CAS10"
+            },
+            {
+                "D": "DDR3 CAS11"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "54 A customer needs to run 3 virtual machines on their software design workstation. Which of the following CPUs would be MOST cost effective for this task?",
+            "choices": [
+            {
+                "A": "3 Core"
+            },
+            {
+                "B": "4 Core"
+            },
+            {
+                "C": "8 Core"
+            },
+            {
+                "D": "12 Core"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "55 An older laptop does not have Wi-Fi capability but has some rectangular slots on its side. Which of the following is the port that would take a Wi-Fi card in this laptop?",
+            "choices": [
+            {
+                "A": "SODIMM"
+            },
+            {
+                "B": "PCMCIA"
+            },
+            {
+                "C": "SD"
+            },
+            {
+                "D": "Compact flash"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "56 A technician has a work order to install a USB 3.0 expansion card into a PC. The expansion card is a PCI Express 1.1 compliant card and the motherboard has one PCI Express 2.0 slot available. Which of following BEST represents the compatibility between the hardware?",
+            "choices": [
+            {
+                "A": "It will not install correctly, and the PCI slot is already being used by the video card."
+            },
+            {
+                "B": "It will install correctly to the PCI Express slot onto the motherboard. The card should function correctly, as the PCI Express 2.0 slot is backwards compliant."
+            },
+            {
+                "C": "It will not install correctly into the PC, as the 1.1 and 2.0 slots are not compatible."
+            },
+            {
+                "D": "It will install correctly, but the card will not operate as the PCI Express 1.1 and the PCI Express 2.0 standards are completely different."
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "57 A user is trying to use Remote Desktop to connect to another computer on the LAN. The connection fails. The technician opens up a command prompt and types the following \"telnet computername 3389\" and also gets the same error message. Which of the following is the MOST likely cause of this error, assuming that the OS firewall has been disabled ?",
+            "choices ": [
+            {
+                "A": "The antivirus software is blocking the incoming connection."
+            },
+            {
+                "B": "The ISP is blocking Remote Desktop at their end."
+            },
+            {
+                "C": "The RDP connection has been configured to use a non-standard port."
+            },
+            {
+                "D": "The telnet service has not been installed."
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "58 Which of the following is the standard sequence of wire color in a RJ-11 phone line?",
+            "choices": [
+            {
+                "A": "Green, Black, Yellow, Red"
+            },
+            {
+                "B": "Black, Red, Green, Yellow"
+            },
+            {
+                "C": "Yellow, Black, Red, Green"
+            },
+            {
+                "D": "Red, Black, Green, Yellow"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "59 A technician would like to connect to a computer using remote desktop. Which of the following ports does remote desktop use by default?",
+            "choices": [
+            {
+                "A": "22"
+            },
+            {
+                "B": "443"
+            },
+            {
+                "C": "3389"
+            },
+            {
+                "D": "8080"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "60 Which of the following should a technician do NEXT after reporting an incident?",
+            "choices": [
+            {
+                "A": "Delete the content"
+            },
+            {
+                "B": "Confiscate the PC"
+            },
+            {
+                "C": "Go back to work"
+            },
+            {
+                "D": "Document the incident"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "61 Which of the following MUST be configured when trying to start a machine with a DVD?",
+            "choices": [
+            {
+                "A": "TPM"
+            },
+            {
+                "B": "Virtualization support"
+            },
+            {
+                "C": "BIOS security"
+            },
+            {
+                "D": "Boot order"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "62 After setting up a new computer, a user states that the mouse and keyboard will not work. Which of the following is the MOST likely reason?",
+            "choices": [
+            {
+                "A": "The network cable is disconnected"
+            },
+            {
+                "B": "The PS/2 connectors are switched"
+            },
+            {
+                "C": "The USB connectors are switched"
+            },
+            {
+                "D": "The hard drive is unplugged"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "63 Which of the following interfaces are used to simultaneously transfer video and audio at high rates?",
+            "choices": [
+            {
+                "A": "HDMI"
+            },
+            {
+                "B": "DVI-D"
+            },
+            {
+                "C": "S-Video"
+            },
+            {
+                "D": "DVI-I"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "64 Which of the following expansion cards would MOST likely have the requirements of utilizing a direct auxiliary 6-pin power plug to operate properly?",
+            "choices": [
+            {
+                "A": "PCI Express RAID card"
+            },
+            {
+                "B": "PCI Express video card"
+            },
+            {
+                "C": "PCI Express FireWire card"
+            },
+            {
+                "D": "PCI Express LAN card"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "65 To configure two drives for MAXIMUM performance, which of the following RAID types should be used?",
+            "choices": [
+            {
+                "A": "RAID 0"
+            },
+            {
+                "B": "RAID 1"
+            },
+            {
+                "C": "RAID 5"
+            },
+            {
+                "D": "RAID 10"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "66 Which of the following panel types would allow for the THINNEST possible display monitor?",
+            "choices": [
+            {
+                "A": "LED"
+            },
+            {
+                "B": "CRT"
+            },
+            {
+                "C": "DLP"
+            },
+            {
+                "D": "Plasma"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "67 A technician is tasked with selecting components to build a computer that will be used for computer-aided drafting and computer aided modeling. Which of the following components are the BEST choices? (Select TWO).",
+            "choices": [
+            {
+                "A": "Triple channel memory"
+            },
+            {
+                "B": "MIDI sound card"
+            },
+            {
+                "C": "Socket 1156 motherboard"
+            },
+            {
+                "D": "Onboard graphics"
+            },
+            {
+                "E": "Socket 1366 CPU"
+            }],
+            "ans": "AE"
+        },
+        {
+            "q": "68 Which of the following devices transmits data to all ports regardless of final destination?",
+            "choices": [
+            {
+                "A": "Firewall"
+            },
+            {
+                "B": "Router"
+            },
+            {
+                "C": "Switch"
+            },
+            {
+                "D": "Hub"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "69 Which of the following uses a single connector to deliver both video and audio?",
+            "choices": [
+            {
+                "A": "DVI"
+            },
+            {
+                "B": "Serial"
+            },
+            {
+                "C": "VGA"
+            },
+            {
+                "D": "HDMI"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "70 Which of the following expansion slots uses a serial connection?",
+            "choices": [
+            {
+                "A": "PCI"
+            },
+            {
+                "B": "PCI-X"
+            },
+            {
+                "C": "PCIe"
+            },
+            {
+                "D": "AGP"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "71 Which of the following would allow for multiple computers to share a display and input devices?",
+            "choices": [
+            {
+                "A": "AGP video adapter"
+            },
+            {
+                "B": "KVM switch"
+            },
+            {
+                "C": "Portable TDR"
+            },
+            {
+                "D": "PCI video adapter"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "72 Video editing workstations require the fastest hard drive access times with large storage capacity. Which of the following hard disk setups would be MOST ideal for the described computer?",
+            "choices": [
+            {
+                "A": "Two 500 GB SATA2 hard drives used in a JBOD array"
+            },
+            {
+                "B": "Two 500 GB SATA2 hard drives in a hardware RAID 0"
+            },
+            {
+                "C": "Two 500 GB SATA2 hard drives in a hardware RAID 1"
+            },
+            {
+                "D": "Two 500 GB SATA2 hard drives in a software RAID 0"
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "73 A technician is dispatched to install additional RAM in a computer. The technician unplugs the system from the power source, and removes the cover of the PC. Which of the following should the technician do NEXT?",
+            "choices": [
+            {
+                "A": "Update the BIOS for compatibility."
+            },
+            {
+                "B": "Put on an ESD strap."
+            },
+            {
+                "C": "Use an ant-static bag to hold the RAM while installing."
+            },
+            {
+                "D": "Clean out the PC with compressed air."
+            }],
+            "ans": "B"
+        },
+        {
+            "q": "74 When installing multiple SCSI drives in a system, which of the following is correct?",
+            "choices": [
+            {
+                "A": "All drives must have the same SCSI ID."
+            },
+            {
+                "B": "Drives will be automatically assigned an ID by the controller."
+            },
+            {
+                "C": "Drives in the same RAID array must have the same SCSI ID."
+            },
+            {
+                "D": "Each drive must have a different SCSI ID."
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "75 Which of the following would be the MOST important factor to consider when building a virtualization workstation?",
+            "choices": [
+            {
+                "A": "High-end graphics card with onboard memory"
+            },
+            {
+                "B": "A compact form factor"
+            },
+            {
+                "C": "Dual monitor support"
+            },
+            {
+                "D": "Maximum RAM and CPU cores"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "76 Which of the following are standard AMD processor socket types? (Select TWO).",
+            "choices": [
+            {
+                "A": "1366"
+            },
+            {
+                "B": "1155"
+            },
+            {
+                "C": "940"
+            },
+            {
+                "D": "LGA"
+            },
+            {
+                "E": "F"
+            }],
+            "ans": "CE"
+        },
+        {
+            "q": "77 Which of the following is the form factor of a standard Parallel connector?",
+            "choices": [
+            {
+                "A": "DB-9"
+            },
+            {
+                "B": "DB-15"
+            },
+            {
+                "C": "DB-25"
+            },
+            {
+                "D": "DIN-6"
+            }],
+            "ans": "C"
+        },
+        {
+            "q": "78 A technician is installing a new TV tuner on a Windows 7 HTPC and no channels are showing up. Which of the following is the MOST likely cause?",
+            "choices": [
+            {
+                "A": "The TV cable is connected to the FM/AM input."
+            },
+            {
+                "B": "The TV tuner card does not support HD channels."
+            },
+            {
+                "C": "The TV tuner card is not properly seated."
+            },
+            {
+                "D": "The cable signal is too weak."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "79 Which of the following technologies is responsible for communication with the CPU?",
+            "choices": [
+            {
+                "A": "eSATA"
+            },
+            {
+                "B": "PCI express"
+            },
+            {
+                "C": "Southbridge"
+            },
+            {
+                "D": "Northbridge"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "80 On an ATX motherboard, the 4-pin auxiliary power connector provides which of the following?",
+            "choices": [
+            {
+                "A": "Additional power to onboard devices"
+            },
+            {
+                "B": "Additional power to PCIx peripheral cards"
+            },
+            {
+                "C": "Additional power to the South Bridge"
+            },
+            {
+                "D": "Additional power to the CPU voltage regulator"
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "81 Jot, a user, has installed a new monitor on an existing system. Jot calls a support technician and reports that everything on the new display is fuzzy. Which of the following describes what needs to be changed to correct this issue?",
+            "choices": [
+            {
+                "A": "The display resolution needs to match the native resolution."
+            },
+            {
+                "B": "The old graphics card does not support the new monitor."
+            },
+            {
+                "C": "The new monitor cable needs to have aluminum cores installed."
+            },
+            {
+                "D": "The new monitor requires updated drivers to be installed."
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "82 Ann, a user, has recently installed a new Blu-Ray ROM in her desktop computer. The computer recognizes the device as a DVD-ROM. Which of the following actions would enable the system to recognize the device as a Blu-Ray device?",
+            "choices": [
+            {
+                "A": "The operating system must be upgraded to Windows Ultimate."
+            },
+            {
+                "B": "Flash the system’s motherboard CMOS."
+            },
+            {
+                "C": "Upgrade to the latest Windows Media Player."
+            },
+            {
+                "D": "Install the manufacture’s drivers for the OS."
+            }],
+            "ans": "D"
+        },
+        {
+            "q": "83 Which of the following external ports would a technician use to connect a keyboard? (Select TWO).",
+            "choices": [
+            {
+                "A": "eSATA"
+            },
+            {
+                "B": "IEEE 1394"
+            },
+            {
+                "C": "USB"
+            },
+            {
+                "D": "PS/2"
+            },
+            {
+                "E": "VGA"
+            }],
+            "ans": "CD"
+        },
+        {
+            "q": "84 A technician has 2GB of data that needs to be backed up from a customer’s Windows 7 computer. Which of the following storage media should the technician use?",
+            "choices": [
+            {
+                "A": "DVD-RW"
+            },
+            {
+                "B": "CD-RW"
+            },
+            {
+                "C": "DVD-ROM"
+            },
+            {
+                "D": "CD-ROM"
+            }],
+            "ans": "A"
+        },
+        {
+            "q": "85 Which of the following adapter types uses a 7-pin cable to transmit video signals?",
+            "choices": [
+            {
+                "A": "RGB"
+            },
+            {
+                "B": "S-Video"
+            },
+            {
+                "C": "HDMI"
+            },
+            {
+                "D": "DVI"
+            }],
+            "ans": "B"
+        }
+    ]
+}

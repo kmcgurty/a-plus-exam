@@ -6,8 +6,8 @@ body {
 .title {
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
-    background: linear-gradient(black, ease, rgb(230, 230, 230));
+    text-align: center; //background: linear-gradient(black, ease, rgb(230, 230, 230));
+    background: linear-gradient(black, #313131 6.27%, #515151 11.76%, #6d6d6d 16.9%, #878787 22.16%, #9e9e9e 27.99%, #b2b2b2 34.82%, #c4c4c4 43.13%, #d2d2d2 53.34%, #dddddd 65.93%, #e4e4e4 81.33%, #e6e6e6);
 }
 
 #exam-container {
@@ -105,10 +105,38 @@ input[type="button"]:hover {
 
 .show {
     opacity: 1;
-    transition: opacity 750ms ease-in;
+    transition: opacity 750ms ease-out;
 }
 
 .hide {
     opacity: 0;
-    transition: opacity 750ms ease-out;
+    transition: opacity 750ms ease-in;
+}
+
+@supports (-ms-ime-align: auto) {
+    max-width: 350px;
+}
+
+#toast {
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    text-align: center;
+    line-height: 110%;
+    vertical-align: middle;
+    position: fixed;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    font-size: 18px;
+    width: intrinsic;
+    width: fit-content; //bottom: 100px;
+    width: -webkit-max-content;
+    width: -moz-fit-content;
+    padding: 5px 15px 5px 15px;
+    word-wrap: break-word;
+    max-width: 350px;
 }

@@ -2,13 +2,20 @@
     var QUESTION_DATA;
     const MAX_QUESTIONS = 25;
 
-    var minLoadTime = 1500;
+    //var minLoadTime = 1000;
+    var minLoadTime = 1000;
     var startTime = Date.now();
 
     var lastVisit = Cookies.get("last_visit");
+    console.log(!lastVisit);
     var toShuffle = !lastVisit; //shuffle if haven't visited before
 
-    $.getJSON("./javascript/901questions.json")
+    var saveOnReload = true;
+
+    var qBankPath = "./javascript/901questions.json";
+
+
+    $.getJSON(qBankPath)
         .done(function(data) {
             var currTime = Date.now();
             var loadTime = (currTime - startTime);
@@ -27,9 +34,9 @@
 
             //give some time to appreciate mr. loader duck
             setTimeout(function() {
-                finishLoading();
+                finishLoading(); // hide duck, make everything behind it visible
                 appendHTML(); //add questions to the page
-                loadSession();
+                loadSession(); //restore 
                 addListeners(); //add click listeners
                 //saveSession(); //save the session via cookies
             }, minLoadTime);
@@ -139,15 +146,22 @@
 
             if (e.target.value == "Save") {
                 saveSession();
+                toast("Progress saved.");
             }
 
             if (e.target.value == "Reset") {
                 clearSession();
             }
+
+            if (e.target.type == "radio") {
+                saveSession();
+            }
         });
 
         window.addEventListener("beforeunload", function(e) {
-            saveSession();
+            if (saveOnReload) {
+                saveSession();
+            }
             event.preventDefault();
         });
 
@@ -157,7 +171,7 @@
         var points = 0;
 
         for (var i = 0; i < MAX_QUESTIONS; i++) {
-            var answers = getAnswersFromQ(i);
+            var answers = getAnswers(i);
 
 
             for (var j = 0; j < answers.length; j++) {
@@ -171,6 +185,8 @@
                 }
             }
         }
+
+        alert("Your score: " + points + "/" + MAX_QUESTIONS + " or " + round((points / MAX_QUESTIONS) * 100) + "%");
     }
 
     function saveSession() {
@@ -197,13 +213,15 @@
     }
 
     function clearSession() {
-        var c = confirm("Are you sure you want to reset? All answers will be removed and questions will randomize.");
+        var reload = confirm("Are you sure you want to reset? All answers will be removed and questions will randomize.");
 
-        if (c) {
+        if (reload) {
             localStorage.removeItem("lastSession");
             localStorage.removeItem("savedSelections");
-
             Cookies.remove('last_visit', { path: '' });
+
+            saveOnReload = false;
+
             location.reload();
         }
     }
@@ -226,7 +244,7 @@
     //due to how the answers are stored in the json
     //this function cycles through the choices to find the answers
     //returns array of answers
-    function getAnswersFromQ(questionNum) {
+    function getAnswers(questionNum) {
         var answers = [];
 
         for (var i = 0; i < QUESTION_DATA[questionNum].choices.length; i++) {
@@ -265,5 +283,26 @@
         }
 
         return array;
+    }
+
+    function toast(message) {
+        console.log(message);
+        var duration = 2000;
+        var elem = document.querySelector("#toast");
+
+        console.log(elem);
+
+        elem.innerHTML = message;
+
+        elem.className = "show";
+
+        setTimeout(function() {
+            elem.className = "hide";
+        }, duration)
+    }
+
+
+    function round(num) {
+        return Math.round(num * 100) / 100
     }
 })();
